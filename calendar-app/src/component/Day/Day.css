@@ -1,0 +1,38 @@
+.activeDate:hover ,.inactiveDate:hover{
+    background-color: #fff;
+    border-radius:3px;
+}
+.activeDate{
+    border-radius: 3px;
+    display: inline-block;
+    width: 13.5%;
+    height: 30px;
+    line-height: 30px;
+    float:left;
+    background-color: #fff;
+}
+.currentDate{
+
+    border-radius: 3px;
+    display: inline-block;
+    width: 13.5%;
+    height: 30px;
+    line-height: 30px;
+    float:left;
+    background-color: indianred;
+}
+
+.inactiveDate{
+    display: inline-block;
+    width: 13.5%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    padding:3px;
+}
+.selectedDate{
+    background-color: #fff;
+}
+.clear{
+    clear:both;
+}

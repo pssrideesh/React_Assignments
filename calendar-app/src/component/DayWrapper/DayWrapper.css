@@ -1,0 +1,16 @@
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.daysWrapper{
+    position: relative;
+    background-color: #2975b8;
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0;
+    width:100%;
+}
+

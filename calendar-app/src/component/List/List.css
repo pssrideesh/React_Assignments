@@ -1,0 +1,22 @@
+.listUl{
+    background-color: blanchedalmond;
+    display: inline-block;
+    float: left;
+    border-radius: 5px;
+    float: right;
+    margin: 6px;
+    width:25%;
+}
+.listDateLi{
+
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+.listNoteli{
+    padding: 5px;
+    max-width: 100px;
+    min-width: 100px;
+    word-wrap: break-word;
+    text-align: left;
+}

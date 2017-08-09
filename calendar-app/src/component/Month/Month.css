@@ -1,0 +1,45 @@
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.monthWrapper{
+    position: relative;
+    width: 100%;
+    background-color: beige;
+    display: run-in;
+    height: 30px;
+    line-height: 30px;
+}
+.monthLabel{
+    font-weight:bold;
+}
+.whiteTriangle{
+    position: relative;
+    width:12px;
+    height:17px;
+}
+.prevTriangle{
+    width:0;
+    height:0;
+    border-style: solid;
+    border-width:15px 12px 15px 0px;
+    border-color: transparent grey transparent transparent;
+    float: left;
+}
+
+.nextTriangle{
+    width:0;
+    height:0;
+    border-style: solid;
+    border-width:15px 0px 15px 12px;
+    border-color: transparent transparent transparent grey;
+    float: left;
+}
+.nextMonth{
+    float: right;
+}
+.prevMonth{
+    float: left;
+}

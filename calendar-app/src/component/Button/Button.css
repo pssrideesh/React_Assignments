@@ -1,0 +1,10 @@
+.buttonComponent{
+    padding: 10px;
+    margin: 5px;
+    background-color: #146a62;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    float: left;
+}
